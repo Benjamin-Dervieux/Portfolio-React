@@ -3,28 +3,48 @@ import "./portfolio.css";
 import IMG1 from "../../assets/projet1.jpg";
 import IMG2 from "../../assets/inquiz-itor.jpg";
 import IMG3 from "../../assets/you&me.jpg";
+import IMG4 from "../../assets/zenego.png";
+import IMG5 from "../../assets/weatherApp.png";
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: "La maison jungle (En developpement)",
+    title:
+      "La maison jungle is a commercial site for indoor plants (current development).",
     github: "https://github.com",
     demo: "https://versel.com/.....",
   },
   {
     id: 2,
     image: IMG2,
-    title: "Inquiz'itor, quiz game",
+    title:
+      "Inquiz'itors is a game/quiz that will test your general knowledge on different themes.",
     github: "https://github.com",
     demo: "https://inquizitor.vercel.app/",
   },
   {
     id: 3,
     image: IMG3,
-    title: "Compatibility application",
+    title:
+      "You & Me is an application that allows you to test the compatibility of 2 people for love, friendship and work in a humorous way.",
     github: "https://github.com",
     demo: "https://u-n-me.netlify.app/themechoice",
+  },
+  {
+    id: 4,
+    image: IMG4,
+    title:
+      "Zenego is an application for sophrologists, yoga teachers that allows the connection between practitioners and their patients.",
+    github: "https://github.com",
+    demo: "https://atempo.vercel.app",
+  },
+  {
+    id: 5,
+    image: IMG5,
+    title: "Weather App gives you the weather anytime,anywhere.",
+    github: "https://github.com",
+    demo: "https://weather-project-theta.vercel.app/",
   },
 ];
 
