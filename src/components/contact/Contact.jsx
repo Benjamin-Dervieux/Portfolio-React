@@ -4,30 +4,34 @@ import { MdOutlineMail } from "react-icons/md";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { BsWhatsapp } from "react-icons/bs";
 import emailjs from "emailjs-com";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function Contact() {
   const form = useRef();
+
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(
-      "service_9mjxbr7",
-      "template_9kajsjv",
-      form.current,
-      "5xuMvoW5fCDc-qGIX"
-    );
-    e.target
-      .reset()
-
+    emailjs
+      .sendForm(
+        process.env.REACT_APP_SERVICE_ID,
+        process.env.REACT_APP_TEMPLATE_ID,
+        form.current,
+        process.env.REACT_APP_PUBLIC_ID
+      )
       .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
+        (result) => console.log(result.text),
+        (error) => console.log(error.text)
       );
+    e.target.reset();
   };
+
+  const notify = () =>
+    toast(
+      "Thank's for your message, I will get back to you as soon as possible "
+    );
+
   return (
     <section id="contact">
       <h5>Get In Touch</h5>
@@ -89,9 +93,20 @@ function Contact() {
             placeholder="Your Message"
             required
           ></textarea>
-          <button type="submit" className="btn btn-primary">
+          <button type="submit" className="btn btn-primary" onClick={notify}>
             Send Message
           </button>
+          <ToastContainer
+            position="top-center"
+            autoClose={3000}
+            hideProgressBar={false}
+            newestOnTop={false}
+            closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+          />
         </form>
       </div>
     </section>
