@@ -18,7 +18,7 @@ function Contact() {
         "service_cz57mzr",
         "template_9kajsjv",
         form.current,
-        "5xuMvoW5fCDc-qGIX"
+        "PClicAw8YUNBWiztW"
       )
       .then(
         (result) => console.log(result.text),
