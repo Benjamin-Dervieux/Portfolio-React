@@ -3,7 +3,7 @@ import "./contact.css";
 import { MdOutlineMail } from "react-icons/md";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { BsWhatsapp } from "react-icons/bs";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
