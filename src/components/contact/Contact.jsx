@@ -21,8 +21,12 @@ function Contact() {
         "PClicAw8YUNBWiztW"
       )
       .then(
-        (result) => console.log(result.text),
-        (error) => console.log(error.text)
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
       );
     e.target.reset();
   };
