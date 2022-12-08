@@ -5,6 +5,7 @@ import IMG2 from "../../assets/inquiz-itor.jpg";
 import IMG3 from "../../assets/you&me.jpg";
 import IMG4 from "../../assets/zenego.png";
 import IMG5 from "../../assets/weatherApp.png";
+import IMG6 from "../../assets/dani.png";
 
 const data = [
   {
@@ -20,7 +21,7 @@ const data = [
     image: IMG2,
     title:
       "Inquiz'itors is a game/quiz that will test your general knowledge on different themes.",
-    github: "https://github.com",
+    github: "https://github.com/ComicScrip/lyon-react-mars22-p2g5",
     demo: "https://inquizitor.vercel.app/",
   },
   {
@@ -28,7 +29,7 @@ const data = [
     image: IMG3,
     title:
       "You & Me is an application that allows you to test the compatibility of 2 people for love, friendship and work in a humorous way.",
-    github: "https://github.com",
+    github: "https://github.com/QuintinJouanne/You-Me",
     demo: "https://u-n-me.netlify.app/themechoice",
   },
   {
@@ -36,14 +37,22 @@ const data = [
     image: IMG4,
     title:
       "Zenego is an application for sophrologists, yoga teachers that allows the connection between practitioners and their patients.",
-    github: "https://github.com",
+    github: "https://github.com/NycoChavanoud/atempo",
     demo: "https://atempo.vercel.app",
   },
   {
     id: 5,
     image: IMG5,
     title: "Weather App gives you the weather anytime,anywhere.",
-    github: "https://github.com",
+    github: "https://github.com/Benjamin-Dervieux/weather-project",
+    demo: "https://weather-project-theta.vercel.app/",
+  },
+  {
+    id: 6,
+    image: IMG6,
+    title:
+      "Danielle Desteucq-Roettger website, translator and interpretor (current development).",
+    github: "https://github.com/Benjamin-Dervieux/Dani-website",
     demo: "https://weather-project-theta.vercel.app/",
   },
 ];
