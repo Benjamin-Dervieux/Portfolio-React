@@ -53,7 +53,7 @@ const data = [
     title:
       "Danielle Desteucq-Roettger website, translator and interpretor (current development).",
     github: "https://github.com/Benjamin-Dervieux/Dani-website",
-    demo: "https://weather-project-theta.vercel.app/",
+    demo: "https://danielle-website.vercel.app/",
   },
 ];
 
