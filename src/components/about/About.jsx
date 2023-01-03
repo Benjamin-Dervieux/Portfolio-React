@@ -41,13 +41,12 @@ function About() {
           <p>
             Junior web developer, I am looking for a job after 6 months of
             intensive training at the Wild Code School in Lyon. After 13 years
-            in business, service to professionals and delivery delivery, I chose
-            to reconvert to the profession of web developer. Autonomous by
-            nature, I can work alone or in a group, being able to group, being
-            also able to adapt to an environment that I do not know. I don't
-            know. I know how to make proposals, always looking to improve and
-            optimize the projects to the maximum for objective: customer
-            satisfaction.
+            in business, service to professionals and delivery, I chose to
+            reconvert to the profession of web developer. Autonomous by nature,
+            I can work alone or in a group, being able to group, being also able
+            to adapt to an environment that I don't know. Make proposals, always
+            looking to improve and optimize the projects to the maximum for
+            objective: customer satisfaction.
           </p>
 
           <a href="#contact" className="btn btn-primary">
