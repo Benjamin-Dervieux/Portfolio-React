@@ -35,18 +35,19 @@ function About() {
             <article className="about_card">
               <VscFolderOpened className="about_icon" />
               <h5>Projects</h5>
-              <small>5</small>
+              <small>6</small>
             </article>
           </div>
           <p>
-            Junior web developer, I am looking for a job after 6 months of
-            intensive training at the Wild Code School in Lyon. After 13 years
-            in business, service to professionals and delivery, I chose to
-            reconvert to the profession of web developer. Autonomous by nature,
-            I can work alone or in a group, being able to group, being also able
-            to adapt to an environment that I don't know. Make proposals, always
-            looking to improve and optimize the projects to the maximum for
-            objective: customer satisfaction.
+            Junior web developer, after 13 years in business, service to
+            professionals and delivery, I chose to reconvert to the profession
+            of web developer. I'm looking for experience to apply the knowledge
+            i've acquired after 9 months of intensive training at the Wild Code
+            School in Lyon. Autonomous by nature, I can work alone or in a
+            group, being also able to adapt to an environment that I do not
+            know. Make proposals, always looking to improve and optimize the
+            projects to the maximum for objective: Optimisation and Customer
+            satisfaction.
           </p>
 
           <a href="#contact" className="btn btn-primary">

@@ -68,6 +68,13 @@ function Experience(props) {
                 <small className="text-light">Basic</small>
               </div>
             </article>
+            <article className="experience_details">
+              <BsPatchCheckFill className="experience_details-icon" />
+              <div>
+                <h4>Angular</h4>
+                <small className="text-light">Basic</small>
+              </div>
+            </article>
           </div>
         </div>
 
@@ -127,7 +134,14 @@ function Experience(props) {
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
-                <h4>Cypress</h4>
+                <h4>Java</h4>
+                <small className="text-light">Basic</small>
+              </div>
+            </article>
+            <article className="experience_details">
+              <BsPatchCheckFill className="experience_details-icon" />
+              <div>
+                <h4>Spring</h4>
                 <small className="text-light">Basic</small>
               </div>
             </article>
