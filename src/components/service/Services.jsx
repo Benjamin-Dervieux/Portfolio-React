@@ -85,7 +85,7 @@ function Services() {
           <ul className="service_list">
             <li>
               <BiCheck size={30} className="service_list-icon" />
-              <p>Base du développement web (HTML5, CSS3, JavaScript et PHP)</p>
+              <p>Base du développement web (HTML5, CSS3, JavaScript)</p>
             </li>
 
             <li>
@@ -95,12 +95,12 @@ function Services() {
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Frameworks : React, Next, Node Js, Express, Svelte</p>
+              <p>Frameworks : React, Next, Node Js, Express</p>
             </li>
 
             <li>
               <BiCheck className="service_list-icon" />
-              <p>Integration : Bootstrap, Tailwind, Material UI</p>
+              <p>Integration : Tailwind, Material UI</p>
             </li>
           </ul>
         </article>
