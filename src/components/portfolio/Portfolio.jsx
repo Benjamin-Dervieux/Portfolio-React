@@ -50,8 +50,7 @@ const data = [
   {
     id: 6,
     image: IMG6,
-    title:
-      "Danielle Desteucq-Roettger website, translator and interpretor (current development).",
+    title: "Danielle Desteucq-Roettger website, translator and interpretor.",
     github: "https://github.com/Benjamin-Dervieux/Dani-website",
     demo: "https://danielle-desteucq.vercel.app/",
   },
